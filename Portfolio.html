@@ -1,0 +1,193 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>My personal website </title>
+  <style type="text/css">
+
+    *{
+    padding: 0;
+    margin: 0;
+    }
+    body{
+    background-color: #1b1f24;
+    }
+    header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: px;
+    }
+    .logo{
+    text-decoration: none;
+    color: white;
+    margin-left: 5%;
+    font-size: 20px;
+    text-transform: capitalize;
+    }
+    .logo .color{
+    color: #6ae5fff4;
+    }
+    .nav-list{
+    width: 35px;
+    height: 35px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    position: relative;
+    left: 15%;
+
+    }
+    .nav-list .icon{
+    color: white;
+
+    }
+    nav ul {
+    display: flex;
+    display: none;
+    }
+    ul{
+    list-style: none;
+    text-align: center;
+    }
+    li a{
+    text-decoration: none;
+    color: white;
+    margin: 0px 10px;
+    }
+    .hire{
+    margin-right: 5%;
+    width: 120px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid #6ae5fff4;
+    outline: none;
+    background: transparent;
+    color: white;
+    transition: 0.5s;
+    }
+    .hire:hover{
+      box-shadow: 0px 10px 40px 0px #6ae5fff4,0px -10px 40px 0px #6ae5fff4;
+    }
+
+    section{
+    padding: 280px -40% -250px;
+    overflow: hidden;
+    }
+    .hero{
+    width: 100%;
+    height: 100vh;
+    background-image: url('me_1_prev_ui.png');
+    background-size: cover;
+    background-position: top left;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    }
+    .main-content{
+    width: 70%;
+    display: grid;
+    gap: 8%;
+    margin-left: 1%;
+    }
+    .main-content h2{
+    color: white;
+    font-size: 35px;
+    }
+    .main-content h2 span{
+    color: #6ae5fff4;
+    }
+    .main-content h1{
+    color: #6ae5fff4;
+    }
+    .main-content p{
+    color: white;
+    width: 100%;
+    font-size: 18px;
+    text-transform: capitalize;
+    }
+    .social{
+    width: 100%;
+    margin-bottom: 2%;
+    }
+    .social img{
+    width: 40px;
+    height: 40px;
+    margin-left: 5px;
+    border-radius: 50%;
+    }
+    .social img:hover{
+    box-shadow: 0px 5px 20px 0px #6ae5fff4,0px -5px 20px 0px #6ae5fff4;
+    }
+    .main-btns{
+    width: 100%;
+
+    }
+    .main-btns a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid #6ae5fff4;
+    border-radius: 7px;
+    padding: 10px;
+    transition: .4s all ease;
+    }
+    .btn1{
+    margin-right: 7px;
+    background-color: #006ccf4c;
+
+    }
+    .btn1:hover {
+    background-color: transparent;
+    color: white;
+    box-shadow: 0px 10px 20px 0px #6ae5fff4,0px -10px 20px 0px #6ae5fff4;
+    }
+    .btn2:hover{
+    color: white;
+    box-shadow: 0px 10px 20px 0px #6ae5fff4,0px -10px 20px 0px #6ae5fff4;
+    }
+    header.sticky{
+    background-color: #1b1f24;
+    box-shadow: 0 .1rem 1rem rgba(0,0,0,.2);
+    padding: 16px 16% 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">Code<span class="color">Logy</span></a>
+
+    <button class="nav-list" onclick="show()"><span class="icon">&#9776;</span></button>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#About">About Me</a></li>
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#customer">Customer Reports</a></li>
+      </ul>
+    </nav>
+    <button class="hire">Hire me</button>
+  </header>
+  <section class="hero" id="home">
+    <div class="main-content">
+      <h2>
+        <span class="color">Hi</span>,There!</h2>
+      <h1>I'm Gbohunmi Williams</h1>
+      <p>
+        i am a frontend  developer,
+        Hire me for your jobs.
+      </p>
+      <div class="social">
+        <a href="#"><img src="ig.png" alt="ig" /></a>
+      <a href="#"><img src="fb.png" alt="ig" /></a>
+    <a href="#"><img src="tw.png" alt="ig" /></a>
+</div>
+<div class="main-btns">
+  <a href="#" class="btn1">Hire me</a>
+  <a href="#" class="btn2">download cv</a>
+</div>
+</div>
+</section>
+
+
+
+</body>
+</html>
